@@ -30,7 +30,7 @@ const Discover = () => {
 
       <div className="">
         <h3 className="mb-5 h3">You may like</h3>
-        {data.map((dt) => (
+        {data.map((dt, i) => (
           <div className="mb-2.5 flex gap-2 items-center">
             <div className="w-[42px] h-[42px] rounded-md bg-gray-300"></div>
             <div className="w-[calc(318px-88px)]">

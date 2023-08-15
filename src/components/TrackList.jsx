@@ -21,8 +21,8 @@ const TrackList = () => {
 
       {/* Tracks */}
       <div className="">
-        {data.map(dt =>(
-            <div className="flex justify-between items-center mb-1.5">
+        {data.map((dt, i) =>(
+            <div key={i} className="flex justify-between items-center mb-1.5">
                 <div className="flex items-center gap-2">
                     <img src={bars} alt="Bars" className="" />
                     <div className="rounded-[4px] bg-gray-300 w-10 h-10"></div>
